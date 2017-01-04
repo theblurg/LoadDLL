@@ -136,9 +136,7 @@ BOOL loadDLLFromPath(wchar_t * filePath) {
 	}
 	return TRUE;
 }
-void trapToDebugger(void) {
 
-}
 void sleepAfterLoadFunc(void) {
 	SleepEx(INFINITE, FALSE);
 }

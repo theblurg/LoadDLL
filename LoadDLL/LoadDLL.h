@@ -20,7 +20,6 @@
 
 void displayHelp(void);
 BOOL loadDLLFromPath(wchar_t * filePath);
-void trapToDebugger(void);
 void sleepAfterLoadFunc(void);
 void ErrorExit(LPTSTR lpszFunction);
 
