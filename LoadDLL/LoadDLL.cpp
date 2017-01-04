@@ -92,7 +92,8 @@ int _tmain(int argc, _TCHAR*  argv[])
 
 	if (trapToDebugger) {
 		wprintf(L"Trap to debugger....\n");
-		// This is hot.
+		// This is hot. No stack frame gets created by this macro.
+		// That means our symbols in the debugger won't be mucked up.
 		__debugbreak();
 	}
 
